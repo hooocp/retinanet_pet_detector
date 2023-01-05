@@ -8,7 +8,7 @@ import torch
 from omegaconf import DictConfig
 from pytorch_lightning.callbacks import (
     EarlyStopping,
-    LearningRateLogger,
+    LearningRateMonitor as LearningRateLogger,
     ModelCheckpoint,
 )
 from torch import nn
